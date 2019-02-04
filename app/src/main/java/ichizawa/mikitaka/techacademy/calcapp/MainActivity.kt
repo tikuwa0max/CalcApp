@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
     override fun onClick(v: View?) {
         val intent = Intent(this, Second::class.java)
 
-        var x:Float
-        var y:Float
+        var x:Double
+        var y:Double
 
-        x = editText.toString().toFloat()
-        y = editText2.toString().toFloat()
+        x = editText.toString().toDouble()
+        y = editText2.toString().toDouble()
         intent.putExtra("VALUE1", x)
         intent.putExtra("VALUE2", y)
         startActivity(intent)
@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         setContentView(R.layout.activity_main)
 
         button1.setOnClickListener(this)
-
 
     }
 
