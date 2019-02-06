@@ -21,4 +21,5 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getTargetContext()
         assertEquals("ichizawa.mikitaka.techacademy.calcapp", appContext.packageName)
     }
+
 }

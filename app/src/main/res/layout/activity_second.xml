@@ -6,9 +6,18 @@
         android:orientation="vertical">
 
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="結果は"
-            android:id="@+id/textView"/>
+            android:gravity="center_horizontal"
+            android:id="@+id/textView" android:textSize="36sp"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+
+            android:id="@+id/returnbutton"/>
+
 
 </LinearLayout>

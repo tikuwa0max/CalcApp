@@ -44,11 +44,19 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
             intent.putExtra("VALUE1", z)
             startActivity(intent)
-        }catch (e: Exception){
+        }catch (e: Exception) {
             Log.d("kotlintest", "空欄があります")
 
+            Snackbar.make(v,"数値を入力してください", Snackbar.LENGTH_INDEFINITE)
+                .setAction("OK") {
+                    Log.d("UI_PARTS", "")
+                }.show()
+
         }
-    }
+
+
+        }
+
 
 
 

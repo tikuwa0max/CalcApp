@@ -7,6 +7,14 @@
 
 
 
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1つ目の数字"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView2" android:textSize="20dp"/>
+
+
 
     <EditText
             android:layout_width="match_parent"
@@ -14,6 +22,12 @@
             android:id="@+id/editText"
             />
 
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2つ目の数字"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView3" android:textSize="20dp"/>
 
 
     <EditText
